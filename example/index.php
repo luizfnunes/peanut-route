@@ -1,18 +1,4 @@
-# PeanutRouter
-## A router manager in PHP
-
-## Usage
-Create a file .htaccess like this
-´´´
-RewriteEngine on
-
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [QSA]
-´´´
-
-Create a file index.php like this
-´´´php
+<?php
 session_start();
 
 require dirname(__DIR__, 1) . "../vendor/autoload.php";
@@ -65,4 +51,3 @@ if($router->hasError()){
     # Redirect route
     $router->redirect('/error');
 }
-´´´

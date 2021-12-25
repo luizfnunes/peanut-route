@@ -1,0 +1,21 @@
+{
+    "name" :  "luizfnunes/peanut-router",
+    "decription" : "A route manager in PHP",
+    "version" : "1.0",
+    "authors" : [
+        {
+            "name" : "luizfnunes",
+            "email": "luizfnunes@outlook.com",
+            "homepage" : "http://github.com/luizfnunes",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Luizfnunes\\PeanutRouter\\" : "src/"
+        }
+    }
+}
