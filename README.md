@@ -66,3 +66,5 @@ if($router->hasError()){
     $router->redirect('/error');
 }
 ```
+
+For more information, see the example folder.
