@@ -1,5 +1,5 @@
 # PeanutRouter
-A router manager in PHP
+A route manager in PHP
 
 ## Requirements
 - PHP: >=8.0.7
