@@ -1,6 +1,9 @@
 # PeanutRouter
 ## A router manager in PHP
 
+## Requirements
+- PHP: >=8.0.7
+
 ## Usage
 Create a file .htaccess like this
 ```apacheconf
