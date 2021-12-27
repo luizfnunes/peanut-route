@@ -31,6 +31,8 @@ $router->patch('/product/patch', [Site::class, 'productOthers']);
 $router->delete('/product/delete', [Site::class, 'productOthers']);
 
 # Routes with parameters
+# Default parameter types: {number}, {string}, {lower}, {upper}, {alphanum}
+# {numberx}, {stringx}, {alphanumx} where the x suffix represents the chars _ and -
 $router->get('/id/{number}', [Site::class, 'withNumber']);
 $router->get('/name/{string}', [Site::class, 'withString']);
 $router->get('/post/{stringx}', [Site::class, 'withStringAndSpecial']);

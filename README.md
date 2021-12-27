@@ -4,6 +4,21 @@ A route manager in PHP
 ## Requirements
 - PHP: >=8.0.7
 
+## Install
+Add the repository in the section **repositories** of the file **composer.json** and call the namespace in the section **require**.
+
+```json
+"repositories" : [
+    {
+        "url" : "https://github.com/luizfnunes/peanut-router.git",
+        "type": "git"
+    }
+],
+"require": {
+    "luizfnunes/peanut-router" : "1.0.0"
+},
+```
+
 ## Usage
 Create a file .htaccess like this
 ```apacheconf
